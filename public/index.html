@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- title of document -->
+        <title>Liberty</title>
+
+        <!-- external css link -->
+        <link rel="stylesheet" href="./main.css" />
+
+        <!-- external icon link -->
+        <link rel="stylesheet" href="./icons/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <!-- header section start -->
+
+        <header class="fixed w-full z-30">
+            <nav class="container flex items-center justify-between mt-5 rounded-full bg-white py-4">
+                <div class="nav-left">
+                    <a href="javascript:;"><img src="./image/logo.png" class="w-40 lg:w-auto" alt="" /></a>
+                </div>
+                <div class="nav-right hidden lg:block">
+                    <ul class="flex justify-between">
+                        <li class="px-3"><a href="./index.html#home" class="px-4 py-2 text-tcolor-white bg-tcolor-bg rounded-full">Home</a></li>
+                        <li class="px-3"><a href="./index.html#explore" class="px-4 py-2 hover:text-tcolor-white hover:bg-tcolor-bg rounded-full">Explore</a></li>
+                        <li class="px-3"><a href="./index.html#item" class="px-4 py-2 hover:text-tcolor-white hover:bg-tcolor-bg rounded-full">Item Details</a></li>
+                        <li class="px-3"><a href="./index.html#author" class="px-4 py-2 hover:text-tcolor-white hover:bg-tcolor-bg rounded-full">Author</a></li>
+                        <li class="px-3"><a href="./index.html#create" class="px-4 py-2 hover:text-tcolor-white hover:bg-tcolor-bg rounded-full">Create Yours</a></li>
+                    </ul>
+                </div>
+
+                <!-- mobile section start -->
+
+                <div class="nav-mobile block lg:hidden cursor-pointer mr-3 text-2xl">
+                    <i class="fa fa-bars" id="bars" aria-hidden="true"></i>
+                </div>
+                <div class="hidden fixed top-24 w-5/6 right-0 bg-white uppercase" id="mobile">
+                    <ul>
+                        <li class="my-10 mx-5"><a href="./index.html#home" class="px-4 py-2 text-tcolor-white bg-tcolor-bg rounded-full">Home</a></li>
+                        <li class="my-10 mx-5"><a href="./index.html#explore" class="px-4 py-2 hover:text-tcolor-white hover:bg-tcolor-bg rounded-full">Explore</a></li>
+                        <li class="my-10 mx-5"><a href="./index.html#item" class="px-4 py-2 hover:text-tcolor-white hover:bg-tcolor-bg rounded-full">Item Details</a></li>
+                        <li class="my-10 mx-5"><a href="./index.html#author" class="px-4 py-2 hover:text-tcolor-white hover:bg-tcolor-bg rounded-full">Author</a></li>
+                        <li class="my-10 mx-5"><a href="./index.html#create" class="px-4 py-2 hover:text-tcolor-white hover:bg-tcolor-bg rounded-full">Create Yours</a></li>
+                    </ul>
+                </div>
+
+                <!-- mobile section end -->
+            </nav>
+        </header>
+
+        <!-- header section end -->
+
+        <!-- banner section start -->
+
+        <section class="banner py-52" id="home">
+            <div class="container">
+                <div class="banner-content grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-0 items-center">
+                    <div class="banner-left text-white">
+                        <h2 class="mb-4 text-xl">Liberty NFT Market</h2>
+                        <h1 class="text-2xl lg:text-5xl font-bold leading-relaxed">CREATE, SELL & COLLECT TOP NFT’S.</h1>
+                        <p class="mt-5 text-base">
+                            Liberty NFT Market is a really cool and professional design for your NFT websites. This HTML CSS template is based on Bootstrap v5 and it is designed for NFT related web portals. Liberty can be freely downloaded
+                            from TemplateMo's free css templates.
+                        </p>
+                        <div class="mt-8 flex flex-wrap gap-5">
+                            <a href="javascript:;" class="px-7 py-3 border border-tcolor-bg hover:bg-tcolor-bg rounded-full after-white">Explore Top NFTs</a>
+                            <a href="javascript:;" class="px-7 py-3 hover:bg-white hover:text-tcolor-bg rounded-full bg-tcolor-bg text-tcolor-white after-white">Watch Our Videos</a>
+                        </div>
+                    </div>
+                    <div class="banner-right">
+                        <div class="flex justify-center lg:justify-end">
+                            <img src="./image/banner-02.png" alt="" />
+                        </div>
+                        <div class="arrow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- banner section end -->
+
+        <!-- black bg section start -->
+
+        <section id="explore" class="black-bg bg-tcolor-bgdark py-28" style="background: url(./image/dark-bg.jpg);">
+            <div class="container">
+                <div class="icon">
+                    <div class="py-2 text-center after-blue">
+                        <h2 class="mt-3 text-3xl text-tcolor-white font-bold">Browse Through Our <span class="text-tcolor-bg">Categories</span> Here.</h2>
+                    </div>
+                    <div class="grid gap-5 grid-cols-1 md:grid-cols-3 lg:grid-cols-6  py-20">
+                        <div class="rounded-3xl p-8 border border-tcolor-solid flex items-center flex-col">
+                            <div class="icon-bg">
+                                <img src="./image/icon/icon-01.png" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="mt-4 text-xl font-semibold text-white">Blockchain</h4>
+                            </div>
+                        </div>
+                        <div class="rounded-3xl p-8 border border-tcolor-solid flex items-center flex-col">
+                            <div class="icon-bg">
+                                <img src="./image/icon/icon-02.png" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="mt-4 text-xl font-semibold text-white">Digital Art</h4>
+                            </div>
+                        </div>
+                        <div class="rounded-3xl p-8 border border-tcolor-solid flex items-center flex-col">
+                            <div class="icon-bg">
+                                <img src="./image/icon/icon-03.png" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="mt-4 text-xl font-semibold text-white">Music Art</h4>
+                            </div>
+                        </div>
+                        <div class="rounded-3xl p-7 border border-tcolor-solid flex items-center flex-col">
+                            <div class="icon-bg">
+                                <img src="./image/icon/icon-04.png" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="mt-4 text-xl font-semibold text-white">Virtual World</h4>
+                            </div>
+                        </div>
+                        <div class="rounded-3xl p-8 border border-tcolor-solid flex items-center flex-col">
+                            <div class="icon-bg">
+                                <img src="./image/icon/icon-05.png" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="mt-4 text-xl font-semibold text-white">Valuable</h4>
+                            </div>
+                        </div>
+                        <div class="rounded-3xl p-8 border border-tcolor-solid flex items-center flex-col">
+                            <div class="icon-bg">
+                                <img src="./image/icon/icon-06.png" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="mt-4 text-xl font-semibold text-white">Triple NFT</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="item" class="py-2 text-center after-blue">
+                    <h2 class="mt-3 text-3xl text-tcolor-white font-bold">Explore Some Hot Collections In Market.</h2>
+                </div>
+                <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center py-20">
+                    <div class="border border-tcolor-solid rounded-2xl">
+                        <img src="./image/collection-01.jpg" class="rounded-2xl w-full" alt="" />
+                        <div class="p-7 text-white">
+                            <h2 class="border-b border-b-tcolor-solid pb-5 font-xl font-semibold">Genesis Collective Statue</h2>
+                            <div class="flex justify-between pt-5">
+                                <div class="text-start text-tcolor-white">
+                                    <h3>Items In Collection:</h3>
+                                    <h4 class="font-bold text-xl">323/324</h4>
+                                </div>
+                                <div class="text-end text-tcolor-white">
+                                    <h3>Category:</h3>
+                                    <h4 class="font-bold text-xl">Visual alert</h4>
+                                </div>
+                            </div>
+                            <a href="javascript:;" class="px-7 py-2 block hover:bg-white hover:text-tcolor-bg rounded-full bg-tcolor-bg text-tcolor-white after-white text-center mt-5 -mb-12">Explore liberty</a>
+                        </div>
+                    </div>
+                    <div class="border border-tcolor-solid rounded-2xl">
+                        <img src="./image/collection-01.jpg" class="rounded-2xl w-full" alt="" />
+                        <div class="p-7 text-white">
+                            <h2 class="border-b border-b-tcolor-solid pb-5 font-xl font-semibold">Genesis Collective Statue</h2>
+                            <div class="flex justify-between pt-5">
+                                <div class="text-start text-tcolor-white">
+                                    <h3>Items In Collection:</h3>
+                                    <h4 class="font-bold text-xl">323/324</h4>
+                                </div>
+                                <div class="text-end text-tcolor-white">
+                                    <h3>Category:</h3>
+                                    <h4 class="font-bold text-xl">Visual alert</h4>
+                                </div>
+                            </div>
+                            <a href="javascript:;" class="px-7 py-2 block hover:bg-white hover:text-tcolor-bg rounded-full bg-tcolor-bg text-tcolor-white after-white text-center mt-5 -mb-12">Explore liberty</a>
+                        </div>
+                    </div>
+                    <div class="border border-tcolor-solid rounded-2xl">
+                        <img src="./image/collection-01.jpg" class="rounded-2xl w-full" alt="" />
+                        <div class="p-7 text-white">
+                            <h2 class="border-b border-b-tcolor-solid pb-5 font-xl font-semibold">Genesis Collective Statue</h2>
+                            <div class="flex justify-between pt-5">
+                                <div class="text-start text-tcolor-white">
+                                    <h3>Items In Collection:</h3>
+                                    <h4 class="font-bold text-xl">323/324</h4>
+                                </div>
+                                <div class="text-end text-tcolor-white">
+                                    <h3>Category:</h3>
+                                    <h4 class="font-bold text-xl">Visual alert</h4>
+                                </div>
+                            </div>
+                            <a href="javascript:;" class="px-7 py-2 block hover:bg-white hover:text-tcolor-bg rounded-full bg-tcolor-bg text-tcolor-white after-white text-center mt-5 -mb-12">Explore liberty</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- black bg section end -->
+
+        <!-- blue bg section start -->
+
+        <section id="author" class="blue-bg py-20" style="background: url(../public/image/main-bg.jpg);">
+            <div class="container text-white">
+                <div class="flex flex-wrap gap-5 items-center justify-center lg:justify-between">
+                    <h4 class="text-3xl pt-5 after-head font-semibold">Create Your NFT & Put It On The Market.</h4>
+                    <a href="javascript:;" class="px-7 py-2 hover:bg-white hover:text-tcolor-bg rounded-full bg-tcolor-bg text-tcolor-white after-white text-center">Create Your NFT Now</a>
+                </div>
+                <div class="grid gap-5 md:grid-cols2 lg:grid-cols-3 py-20">
+                    <div class="border-r border-r-tcolor-white px-4 relative one">
+                        <div class="icon-bg">
+                            <img src="./image/icon/icon-02.png" alt="" />
+                        </div>
+                        <div>
+                            <h4 class="my-4 text-xl font-semibold text-white">Set Up Your Wallet</h4>
+                        </div>
+                        <div>
+                            <p>NFT means Non-Fungible Token that are used in digital cryptocurrency markets. There are many different kinds of NFTs in the industry.</p>
+                        </div>
+                    </div>
+                    <div class="border-r border-r-tcolor-white px-4 relative two">
+                        <div class="icon-bg">
+                            <img src="./image/icon/icon-04.png" alt="" />
+                        </div>
+                        <div>
+                            <h4 class="my-4 text-xl font-semibold text-white">Add Your Digital NFT</h4>
+                        </div>
+                        <div>
+                            <p>There are 5 different HTML pages included in this NFT <span class="text-tcolor-sky">website template.</span> You can edit or modify any section on any page as you required.</p>
+                        </div>
+                    </div>
+                    <div class="px-4">
+                        <div class="icon-bg">
+                            <img src="./image/icon/icon-06.png" alt="" />
+                        </div>
+                        <div>
+                            <h4 class="my-4 text-xl font-semibold text-white">Sell Your NFT & Make Profit</h4>
+                        </div>
+                        <div>
+                            <p>If you would like to support our TemplateMo website, please visit <span class="text-tcolor-sky">our contact page</span> to make a PayPal contribution. Thank you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- blue bg section end -->
+
+        <!-- collection section start -->
+
+        <section id="create" class="collection py-20" style="background: url(./image/dark-bg.jpg);">
+            <div class="container">
+                <div class="flex flex-wrap gap-10 lg:gap-0 items-center justify-between">
+                    <h4 class="text-3xl pt-5 after-head font-semibold text-white"><span class="text-tcolor-bg">Items</span> Currently In The Market.</h4>
+                    <ul class="flex flex-wrap gap-4 justify-between text-white">
+                        <li><a href="javascript:;" class="px-4 py-2 text-tcolor-white bg-tcolor-bg rounded-full">All Items</a></li>
+                        <li><a href="javascript:;" class="px-4 py-2 hover:text-tcolor-white hover:bg-tcolor-bg rounded-full">Musical Art</a></li>
+                        <li><a href="javascript:;" class="px-4 py-2 hover:text-tcolor-white hover:bg-tcolor-bg rounded-full">Digital Art</a></li>
+                        <li><a href="javascript:;" class="px-4 py-2 hover:text-tcolor-white hover:bg-tcolor-bg rounded-full">Blockchain</a></li>
+                        <li><a href="javascript:;" class="px-4 py-2 hover:text-tcolor-white hover:bg-tcolor-bg rounded-full">Virtual</a></li>
+                    </ul>
+                </div>
+                <div class="pt-14">
+                    <div class="grid gap-5 grid-cols-1 lg:grid-cols-2">
+                        <div class="p-7 flex items-center gap-10 border border-tcolor-solid rounded-2xl">
+                            <div>
+                                <img src="./image/market-01.jpg" class="rounded-2xl" alt="" />
+                            </div>
+                            <div>
+                                <h2 class="text-white font-semibold text-xl mb-5">Blockchain Item One</h2>
+                                <div class="flex items-center gap-5 pb-4 border-b border-b-tcolor-solid">
+                                    <div>
+                                        <img src="./image/author.jpg" class="rounded-full" alt="" />
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-2 text-white">Liberty Artist</h3>
+                                        <h4 class="text-tcolor-bg">@libertyart</h4>
+                                    </div>
+                                </div>
+                                <div class="flex justify-between gap-10 pt-3 pb-10">
+                                    <div class="text-start text-tcolor-white">
+                                        <h3 class="pb-1">Current Bid</h3>
+                                        <h4 class="font-bold text-xl pb-1">2.03 ETH</h4>
+                                        <h3 class="pb-1">($8,240.50)</h3>
+                                    </div>
+                                    <div class="text-end text-tcolor-white">
+                                        <h3>Ends In</h3>
+                                        <h4 class="font-bold text-xl">Visual alert</h4>
+                                        <h3>(July 28th, 2022)</h3>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="javascript:;" class="text-tcolor-bg font-bold border-b border-b-tcolor-bg pb-3">View Item Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-7 flex items-center gap-10 border border-tcolor-solid rounded-2xl">
+                            <div>
+                                <img src="./image/market-01.jpg" class="rounded-2xl" alt="" />
+                            </div>
+                            <div>
+                                <h2 class="text-white font-semibold text-xl mb-5">Blockchain Item One</h2>
+                                <div class="flex items-center gap-5 pb-4 border-b border-b-tcolor-solid">
+                                    <div>
+                                        <img src="./image/author.jpg" class="rounded-full" alt="" />
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-2 text-white">Liberty Artist</h3>
+                                        <h4 class="text-tcolor-bg">@libertyart</h4>
+                                    </div>
+                                </div>
+                                <div class="flex justify-between gap-10 pt-7 pb-10">
+                                    <div class="text-start text-tcolor-white">
+                                        <h3 class="pb-1">Current Bid</h3>
+                                        <h4 class="font-bold text-xl pb-1">2.03 ETH</h4>
+                                        <h3 class="pb-1">($8,240.50)</h3>
+                                    </div>
+                                    <div class="text-end text-tcolor-white">
+                                        <h3>Ends In</h3>
+                                        <h4 class="font-bold text-xl">Visual alert</h4>
+                                        <h3>(July 28th, 2022)</h3>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="javascript:;" class="text-tcolor-bg font-bold border-b border-b-tcolor-bg pb-3">View Item Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-7 flex items-center gap-10 border border-tcolor-solid rounded-2xl">
+                            <div>
+                                <img src="./image/market-01.jpg" class="rounded-2xl" alt="" />
+                            </div>
+                            <div>
+                                <h2 class="text-white font-semibold text-xl mb-5">Blockchain Item One</h2>
+                                <div class="flex items-center gap-5 pb-4 border-b border-b-tcolor-solid">
+                                    <div>
+                                        <img src="./image/author.jpg" class="rounded-full" alt="" />
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-2 text-white">Liberty Artist</h3>
+                                        <h4 class="text-tcolor-bg">@libertyart</h4>
+                                    </div>
+                                </div>
+                                <div class="flex justify-between gap-10 pt-7 pb-10">
+                                    <div class="text-start text-tcolor-white">
+                                        <h3 class="pb-1">Current Bid</h3>
+                                        <h4 class="font-bold text-xl pb-1">2.03 ETH</h4>
+                                        <h3 class="pb-1">($8,240.50)</h3>
+                                    </div>
+                                    <div class="text-end text-tcolor-white">
+                                        <h3>Ends In</h3>
+                                        <h4 class="font-bold text-xl">Visual alert</h4>
+                                        <h3>(July 28th, 2022)</h3>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="javascript:;" class="text-tcolor-bg font-bold border-b border-b-tcolor-bg pb-3">View Item Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-7 flex items-center gap-10 border border-tcolor-solid rounded-2xl">
+                            <div>
+                                <img src="./image/market-01.jpg" class="rounded-2xl" alt="" />
+                            </div>
+                            <div>
+                                <h2 class="text-white font-semibold text-xl mb-5">Blockchain Item One</h2>
+                                <div class="flex items-center gap-5 pb-4 border-b border-b-tcolor-solid">
+                                    <div>
+                                        <img src="./image/author.jpg" class="rounded-full" alt="" />
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-2 text-white">Liberty Artist</h3>
+                                        <h4 class="text-tcolor-bg">@libertyart</h4>
+                                    </div>
+                                </div>
+                                <div class="flex justify-between gap-10 pt-7 pb-10">
+                                    <div class="text-start text-tcolor-white">
+                                        <h3 class="pb-1">Current Bid</h3>
+                                        <h4 class="font-bold text-xl pb-1">2.03 ETH</h4>
+                                        <h3 class="pb-1">($8,240.50)</h3>
+                                    </div>
+                                    <div class="text-end text-tcolor-white">
+                                        <h3>Ends In</h3>
+                                        <h4 class="font-bold text-xl">Visual alert</h4>
+                                        <h3>(July 28th, 2022)</h3>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="javascript:;" class="text-tcolor-bg font-bold border-b border-b-tcolor-bg pb-3">View Item Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-7 flex items-center gap-10 border border-tcolor-solid rounded-2xl">
+                            <div>
+                                <img src="./image/market-01.jpg" class="rounded-2xl" alt="" />
+                            </div>
+                            <div>
+                                <h2 class="text-white font-semibold text-xl mb-5">Blockchain Item One</h2>
+                                <div class="flex items-center gap-5 pb-4 border-b border-b-tcolor-solid">
+                                    <div>
+                                        <img src="./image/author.jpg" class="rounded-full" alt="" />
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-2 text-white">Liberty Artist</h3>
+                                        <h4 class="text-tcolor-bg">@libertyart</h4>
+                                    </div>
+                                </div>
+                                <div class="flex justify-between gap-10 pt-7 pb-10">
+                                    <div class="text-start text-tcolor-white">
+                                        <h3 class="pb-1">Current Bid</h3>
+                                        <h4 class="font-bold text-xl pb-1">2.03 ETH</h4>
+                                        <h3 class="pb-1">($8,240.50)</h3>
+                                    </div>
+                                    <div class="text-end text-tcolor-white">
+                                        <h3>Ends In</h3>
+                                        <h4 class="font-bold text-xl">Visual alert</h4>
+                                        <h3>(July 28th, 2022)</h3>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="javascript:;" class="text-tcolor-bg font-bold border-b border-b-tcolor-bg pb-3">View Item Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-7 flex items-center gap-10 border border-tcolor-solid rounded-2xl">
+                            <div>
+                                <img src="./image/market-01.jpg" class="rounded-2xl" alt="" />
+                            </div>
+                            <div>
+                                <h2 class="text-white font-semibold text-xl mb-5">Blockchain Item One</h2>
+                                <div class="flex items-center gap-5 pb-4 border-b border-b-tcolor-solid">
+                                    <div>
+                                        <img src="./image/author.jpg" class="rounded-full" alt="" />
+                                    </div>
+                                    <div>
+                                        <h3 class="mb-2 text-white">Liberty Artist</h3>
+                                        <h4 class="text-tcolor-bg">@libertyart</h4>
+                                    </div>
+                                </div>
+                                <div class="flex justify-between gap-10 pt-7 pb-10">
+                                    <div class="text-start text-tcolor-white">
+                                        <h3 class="pb-1">Current Bid</h3>
+                                        <h4 class="font-bold text-xl pb-1">2.03 ETH</h4>
+                                        <h3 class="pb-1">($8,240.50)</h3>
+                                    </div>
+                                    <div class="text-end text-tcolor-white">
+                                        <h3>Ends In</h3>
+                                        <h4 class="font-bold text-xl">Visual alert</h4>
+                                        <h3>(July 28th, 2022)</h3>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="javascript:;" class="text-tcolor-bg font-bold border-b border-b-tcolor-bg pb-3">View Item Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- collection section end -->
+
+        <!-- footer section start -->
+
+        <footer class="py-10 bg-tcolor-bg text-white text-center">
+            <p>Copyright © 2022 Liberty NFT Marketplace Co., Ltd. All rights reserved. Designed by Harivirat18</p>
+        </footer>
+
+        <!-- footer section end -->
+
+        <!-- external js link -->
+        <script src="./js/script.js"></script>
+
+    </body>
+</html>
